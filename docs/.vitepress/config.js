@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/market-research/',
   title: 'Market Research',
   description: '产品市场调研报告',
   lang: 'zh-CN',
