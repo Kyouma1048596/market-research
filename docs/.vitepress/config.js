@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/market-research/',
+  cleanUrls: true,
   title: 'Market Research',
   description: '产品市场调研报告',
   lang: 'zh-CN',
@@ -25,7 +26,7 @@ export default defineConfig({
         {
           text: '产品调研报告',
           items: [
-            // 动态添加产品报告链接
+            { text: 'AnyGen', link: '/products/anygen' }
           ]
         }
       ]
