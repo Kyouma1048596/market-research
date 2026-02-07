@@ -13,6 +13,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
+    siteTitle: 'Market Research',
     
     nav: [
       { text: '首页', link: '/' },
