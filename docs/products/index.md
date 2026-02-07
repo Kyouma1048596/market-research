@@ -4,7 +4,7 @@
 
 ## 报告列表
 
-暂无报告。使用 Telegram 发送 `/research <产品名称>` 生成调研报告。
+- [AnyGen](./anygen.md) (2026-02-07) - A whole different way to do great work with AI.
 
 ---
 
