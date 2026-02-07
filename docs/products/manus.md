@@ -1,6 +1,6 @@
 ---
 title: Manus - 产品调研报告
-description: "Hands On AI" - 试图让 AI 从"思考"走向"行动"的通用 Agent，但目前仍处于早期神秘阶段。
+description: '"Hands On AI" - 试图让 AI 从"思考"走向"行动"的通用 Agent，但目前仍处于早期神秘阶段。'
 ---
 
 # Manus
