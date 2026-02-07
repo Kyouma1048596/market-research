@@ -26,7 +26,8 @@ export default defineConfig({
         {
           text: '产品调研报告',
           items: [
-            { text: 'AnyGen', link: '/products/anygen' }
+            { text: 'AnyGen', link: '/products/anygen' },
+            { text: 'Manus', link: '/products/manus' }
           ]
         }
       ]
