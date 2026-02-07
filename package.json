@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "validate": "./scripts/validate.sh"
   },
   "keywords": ["market-research", "product-analysis", "competitive-analysis"],
   "author": "Formless Agent",

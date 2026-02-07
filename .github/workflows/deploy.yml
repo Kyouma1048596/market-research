@@ -29,6 +29,23 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Validate Markdown Frontmatter
+        run: |
+          # 简单检查 .md 文件是否有 YAML 语法错误
+          # 这里用一个简单的 grep 检查 description 引号问题
+          find docs/products -name "*.md" -print0 | xargs -0 grep "^description: " | while read line; do
+            val=$(echo "$line" | sed 's/^description: //')
+            # 检查未闭合的双引号
+            if [[ "$val" =~ ^\" ]] && ! [[ "$val" =~ \"$ ]]; then
+              echo "❌ Error: Description starts with quote but does not end with one: $val"
+              exit 1
+            fi
+            # 检查 description 如果没用引号包围，里面是否包含了冒号且没引号
+            if ! [[ "$val" =~ ^\" ]] && [[ "$val" == *": "* ]]; then
+               echo "⚠️  Warning: Description contains unquoted colon, might break YAML: $val"
+            fi
+          done
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
