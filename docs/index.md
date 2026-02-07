@@ -2,32 +2,19 @@
 layout: home
 
 hero:
-  name: "Market Research"
-  text: "产品市场调研报告"
-  tagline: AI 驱动的竞品分析与市场洞察
+  name: "Formless Market Research"
+  text: "Product Insights & Analysis"
+  tagline: "深度挖掘产品背后的逻辑与机会"
   actions:
     - theme: brand
-      text: 查看报告
-      link: /products/
-    - theme: alt
-      text: GitHub
-      link: https://github.com/Kyouma1048596/market-research
+      text: "查看最新报告"
+      link: /products/anygen
 
 features:
-  - icon: 🔍
-    title: 深度调研
-    details: 基础信息、核心功能、商业模式、技术栈全覆盖
-  - icon: 💬
-    title: 用户声音
-    details: 从 App Store、Product Hunt、Reddit 挖掘真实反馈
-  - icon: 📊
-    title: SWOT 分析
-    details: 专业的产品经理视角洞察，发现市场机会
-  - icon: 📱
-    title: 移动端友好
-    details: 随时随地在手机上查看调研报告
+  - title: 深度调研
+    details: 不止于功能罗列，更关注背后的商业逻辑与用户痛点。
+  - title: 实时追踪
+    details: 紧跟 AI 赛道前沿动态，第一时间捕获产品机会。
+  - title: 结构化归档
+    details: 所有报告统一格式，便于横向对比与复盘。
 ---
-
-## 最新报告
-
-暂无报告，使用 `/research <产品名称>` 生成第一份报告！

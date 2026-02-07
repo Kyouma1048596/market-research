@@ -17,8 +17,7 @@ export default defineConfig({
     siteTitle: 'Market Research',
     
     nav: [
-      { text: '首页', link: '/' },
-      { text: '产品报告', link: '/products/' }
+      { text: '报告列表', link: '/products/anygen' }
     ],
 
     sidebar: {
