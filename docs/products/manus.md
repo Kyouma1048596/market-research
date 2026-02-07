@@ -1,73 +1,72 @@
 ---
 title: Manus - 产品调研报告
-description: "Hands On AI" - 主打执行力的通用 AI Agent，能调用工具完成实际工作（如建站、处理数据、管理日历）。
+description: "Hands On AI" - 试图让 AI 从"思考"走向"行动"的通用 Agent，但目前仍处于早期神秘阶段。
 ---
 
 # Manus
 
 > Hands On AI
 
-## 📋 基础信息
+## 📋 基础信息 & 公司背景
 
 | 项目 | 信息 |
 |------|------|
 | 官网 | [manus.im](https://manus.im) |
-| 核心概念 | **Action-First Agent** (执行优先) |
-| 状态 | 早期预览 / Beta (推测) |
+| 公司 | **Manus AI Inc.** (推测) |
+| 融资 | 🚫 **未公开/早期**: 目前各大主流创投数据库 (Crunchbase, Tracxn) 暂无明确记录，属于 Stealth 模式或非常早期阶段。 |
+| 团队 | 未公开具体成员。官网文案透露出强烈的工程师文化 ("unlocking the code... for everyone")。 |
+| 社交媒体 | [Twitter/X (@Manus_AI)](https://x.com/Manus_AI) (推测，需进一步验证) |
 
 ## 🎯 产品定位
 
-**Slogan**: "Hands On AI"
+**Slogan**: "Others have built the brain for AI to think, Manus is building the hands for AI to do."
+(别人造大脑，我们造双手。)
 
 **核心价值**:
-不再是单纯的对话框 (Chatbot)，而是**能干活的工友 (Worker)**。
-它强调**End-to-End Execution**（端到端执行），用户给出目标，Agent 自动拆解并调用工具完成。
+*   **Action-Oriented (行动导向)**: 明确区分于 ChatGPT 等 Chatbot，强调 **Do** (执行) 而不是 **Think** (思考)。
+*   **Democratizing Code (代码平权)**: "Give everyone the code to leverage their lives" —— 它的底层逻辑可能是把代码封装成普通人可用的工具，类似于自然语言编程。
 
-**典型场景**:
-- **构建工具**: "Create a specialized online tool" (如计算器、转换器)。
-- **数据处理**: "Clean and structure your raw data" (数据清洗、转表格)。
-- **自动化办公**: "Automated Reminders", "Batch File Renaming" (日历管理、文件批量操作)。
-- **创意生成**: "Build Personal Website", "Professional Headshot" (建站、生成专业头像)。
+**目标用户**:
+*   需要构建工具、自动化流程的非技术人员 (No-code/Low-code 用户)。
+*   追求极致效率的 Power User。
 
 ## 💰 商业模式
 
-*(官网未公开详细定价，通常此类 Agent 产品采用 Freemium 或按 Task 计费模式)*
+*   目前处于 **Waitlist / Invite Only** 阶段。
+*   无公开定价信息。
 
 ## 📱 平台覆盖
 
-- ✅ Web (核心)
-- ❓ Desktop/Mobile (未明确，但考虑到有文件操作功能，可能有本地客户端或深度浏览器集成)
+*   ✅ Web (主要入口)
+*   ❓ GitHub 仓库 `ManusAI/Manus` 目前是 **404 (Private)**，说明核心代码未开源，或者是闭源 SaaS 产品。
 
-## ⭐ 产品观察
+## 📰 近期动态 (Recent Updates)
 
-从官网展示的 Use Cases 来看，Manus 试图解决的是 **"AI 只能聊天，不能交付结果"** 的痛点。
-它把能力封装成一个个 **"Skill" (技能)**，用户像点菜一样选择任务，而不是在一个空白对话框里从零 Prompting。
-
-**核心能力推测**:
-1.  **Tool Use (工具调用)**: 深度集成了 Google Calendar、File System、Code Interpreter 等工具。
-2.  **Structured Output**: 强调 "Clean Data Output", "Export to Table"，说明它对非结构化数据的处理能力很强。
-3.  **Code Generation & Execution**: 能 "Build Personal Website"，说明具备实时写代码并预览/部署的能力（类似 Claude Artifacts 但更进一步）。
+*   **GitHub**: 官方组织 [ManusAI](https://github.com/ManusAI) 存在，但核心仓库私有。只有少量无关的 Fork 项目，说明处于**隐秘开发期**。
+*   **媒体报道**: 暂无主流科技媒体 (TechCrunch 等) 的深度报道，目前声量主要集中在极客圈子的口耳相传或官网发布。
 
 ## 🔮 产品洞察
 
 ### SWOT 分析
 
 **优势 (Strengths)**
-- **结果导向**: 相比 ChatGPT 等通用对话助手，Manus 更强调 "Done" (完成任务)。
-- **技能化封装**: 将复杂的 Prompt 封装成具体的 "Task Card"（如“批量重命名文件”），降低了用户认知负荷。
+- **概念领先**: "Hands" vs "Brain" 的隐喻非常精准，切中了 Agent 赛道的下一个爆发点——**执行力**。
+- **神秘感营销**: 极简官网 + 高大上的宣言，成功引起了早期采用者的好奇心。
 
 **劣势 (Weaknesses)**
-- **竞争激烈**: "Agent" 赛道巨头林立（OpenAI Operator, Adept, HyperWrite 等）。
-- **信任成本**: 让 AI 直接操作日历或文件，用户会有安全顾虑。
+- **信息不透明**: 团队、融资、产品 Demo 均未公开，容易被质疑是 "Vaporware" (各种 AI 壳子产品)。
+- **落地难度**: "Action" 比 "Chat" 难得多，涉及到复杂的环境交互、鉴权、错误处理，实际体验往往不如宣传片美好。
 
 **机会 (Opportunities)**
-- **Solopreneur (一人公司)**: 为独立开发者/创作者提供全能助理（写代码、做设计、搞运营）。
-- **企业自动化**: 替代传统的 RPA (Robotic Process Automation)。
+- **AI Native OS**: 如果它真的能接管文件、日历、浏览器，它有机会成为下一代操作系统的雏形。
+
+**威胁 (Threats)**
+- **巨头碾压**: OpenAI (Operator), Google (Project Jarvis), Anthropic (Computer Use) 都在做同样的事，且拥有底层模型优势。
 
 ### 竞品差异化建议
 
-- **"透明执行"**: 在执行复杂任务时，提供可视化的进度条或步骤确认（Human-in-the-loop），增加用户掌控感。
-- **本地化部署**: 如果涉及敏感文件处理，提供 Local-first 的选项将是巨大优势。
+- **Show, Don't Tell**: 现在的官网全是 Concept，急需一个真实的 Demo 视频来证明 "Hands On" 到底是怎么 Hands On 的。
+- **开源社区**: 既然 GitHub 组织都建好了，不如开源一部分 "Connectors" (连接器)，让开发者帮它去适配各种 SaaS 工具，构建生态壁垒。
 
 ---
 
